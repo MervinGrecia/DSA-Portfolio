@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PORTFOLIO</title>
+
+<style type="text/css">
+	
+	#bod{
+		background-color: #001F3F;
+		color: #39CCCC;
+		border-style: solid;
+		border-radius: 15px;
+		height: 55%;
+		width: 65%;
+		margin-left: 15%;
+		margin-top: -43%
+	}
+	button {
+        background-color: #1c87c9;
+        border: none;
+        color: white;
+        border-radius: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    button:hover{
+    	background-color: black;
+    	color: white;
+    }
+
+    }
+    #head{
+    	border-style: solid;
+    	border-radius: 10px;
+    	width: 50%
+    }
+
+    body{
+    	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 82%);
+    	color: black;
+    }
+
+    #Lesson{
+    	margin-left: 85%;
+    	margin-top: -42%;
+    }
+
+    #content{
+    	background-color: #e8e4c9;
+    	border-color: #AAAAAA;
+    	border-style: solid;
+    	border-radius: 20px;
+    	height: 650px;
+    }
+   
+  
+</style>
+
+</head>
+<body>
+
+<center>
+	<div id="head">
+	<h1 style="color:black">PORTFOLIO</h1>
+	<h3 style="color:black">Submitted by: Grecia, Mervin Alexis A.</h3>
+	<h3 style="color:black">Section: CEIT 37 - 302A</h3>
+	</div>
+</center>
+<div id="content">
+	<div>
+		<h2 style="margin-left: 15px;">Menu</h2>
+		
+			<ul>
+				<h3>ACTIVITIES</h3>
+			<li><button type="button" onclick="change1();">ACTIVITY 1</button></li></br>
+			<li><button type="button" onclick="change2();">ACTIVITY 2</button></li></br>
+			<li><button type="button" onclick="change3();">ACTIVITY 3</button></li></br>
+			<li><button type="button" onclick="change4();">ACTIVITY 4</button></li></br>
+			<li><button type="button" onclick="change5();">ACTIVITY 5</button></li></br>
+			<li><button type="button" onclick="change6();">ACTIVITY 6</button></li></br>
+			<li><button type="button" onclick="change7();">ACTIVITY 7</button></li></br>
+			<li><button type="button" onclick="change8();">ACTIVITY 8</button></li></br>
+			<li><button type="button" onclick="change9();">ACTIVITY 9</button></li></br>
+			<li><button type="button" onclick="change10();">ACTIVITY 10</button></li></br>
+			<li><button type="button" onclick="change11();">ACTIVITY 11</button></li></br>
+			<li><button type="button" onclick="change12();">ACTIVITY 12</button></li></br>
+			<li><button type="button" onclick="change13();">ACTIVITY 13</button></li></br>
+			</ul>
+
+		<div id="bod">
+			<center>
+			<h3 id="tit">WELCOME TO MY HUMBLE PORTFOLIO</h3>
+			</center>
+			<img src="001.jpg" id="pic" height="100%" width="100%">
+		</div>
+		<div id="Lesson">
+			<h2>Menu</h2>
+			<ul>
+				<h3>LESSONS</h3>
+			<li><button type="button" onclick="window.open('01 Introduction.pdf')">LESSON 1</button></li></br>
+			<li><button type="button" onclick="window.open('02 Algorithm.pdf')">LESSON 2</button></li></br>
+			<li><button type="button" onclick="window.open('03 Recursion.pdf')">LESSON 3</button></li></br>
+			<li><button type="button" onclick="window.open('04 Array.pdf')">LESSON 4</button></li></br>
+			<li><button type="button" onclick="window.open('05 Linked List.pdf')">LESSON 5</button></li></br>
+			<li><button type="button" onclick="window.open('06 Stacks.pdf')">LESSON 6</button></li></br>
+			<li><button type="button" onclick="window.open('07 Trees.pdf')">LESSON 7</button></li></br>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="menu">
+	<a href=""></a>
+</div>
+
+	<h3>&copy;Follow me in:<a href="https://www.facebook.com/mervin.grecia/">Facebook</a></h3>
+	
+
+</body>
+
+<script type="text/javascript">
+	
+	function change1(){
+		var image = document.getElementById('pic')
+		image.src="LBact1.png"
+		var txt = document.getElementById('tit')
+		txt.innerHTML="LABORATORY ACTIVITY #1"
+	}
+	function change2(){
+		var image = document.getElementById('pic')
+		image.src="LBact2.png"
+		var txt = document.getElementById('tit')
+		txt.innerHTML="LABORATORY ACTIVITY #2"
+	}
+	function change3(){
+		var image = document.getElementById('pic')
+		image.src="LBArrayAct1.png"
+		var txt = document.getElementById('tit')
+		txt.innerHTML="LABORATORY ACTIVITY #3"
+	}
+	function change4(){
+		var image = document.getElementById('pic')
+		image.src="LBArrayAct2.png"
+		var txt = document.getElementById('tit')
+		txt.innerHTML="LABORATORY ACTIVITY #4"
+	}
+	function change5(){
+		var image = document.getElementById('pic')
+		image.src="LBArrayAct3.png"
+		var txt = document.getElementById('tit')
+		txt.innerHTML="LABORATORY ACTIVITY #5"
+	}
+	function change6(){
+		var image = document.getElementById('pic')
+		image.src="MergeSorting.png"
+		var txt = document.getElementById('tit')
+		txt.innerHTML="LABORATORY ACTIVITY #6"
+	}
+	function change7(){
+		var image = document.getElementById('pic')
+		image.src="MP2.png"
+		var txt = document.getElementById('tit')
+		txt.innerHTML="LABORATORY ACTIVITY #7"
+	}
+	function change8(){
+		var image = document.getElementById('pic')
+		image.src="NQueenProblem_Midterm.png"
+		var txt = document.getElementById('tit')
+		txt.innerHTML="LABORATORY ACTIVITY #8"
+	}
+	function change9(){
+		var image = document.getElementById('pic')
+		image.src="Recursion Anagram.png"
+		var txt = document.getElementById('tit')
+		txt.innerHTML="LABORATORY ACTIVITY #9"
+	}
+	function change10(){
+		var image = document.getElementById('pic')
+		image.src="recursiveReversedWord.png"
+		var txt = document.getElementById('tit')
+		txt.innerHTML="LABORATORY ACTIVITY #10"
+	}
+	function change11(){
+		var image = document.getElementById('pic')
+		image.src="Stack_output.png"
+		var txt = document.getElementById('tit')
+		txt.innerHTML="LABORATORY ACTIVITY #11"
+	}
+	function change12(){
+		var image = document.getElementById('pic')
+		image.src="StudentName_Number_Midterms.png"
+		var txt = document.getElementById('tit')
+		txt.innerHTML="LABORATORY ACTIVITY #12"
+	}
+	function change13(){
+		var image = document.getElementById('pic')
+		image.src="LinkList.png"
+		var txt = document.getElementById('tit')
+		txt.innerHTML="LABORATORY ACTIVITY #13"
+	}
+
+</script>
+</html>
